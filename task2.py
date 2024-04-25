@@ -21,5 +21,10 @@ example:
 Enter a name: Lebron
 That name is on the list
 """
-
+x=0
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+while x not in nameList:
+    x = input("Enter a name: ")
+    if x not in nameList:
+        print("nope, try again....")
+else: print("that name is on the list...")
